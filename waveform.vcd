@@ -1,0 +1,327 @@
+$date
+	Wed Jun 25 19:47:35 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Lift8_Tb $end
+$var wire 8 ! requests [7:0] $end
+$var wire 3 " min_request [2:0] $end
+$var wire 3 # max_request [2:0] $end
+$var wire 1 $ idle $end
+$var wire 1 % door $end
+$var wire 3 & current_floor [2:0] $end
+$var wire 1 ' Up $end
+$var wire 1 ( Down $end
+$var reg 1 ) clk $end
+$var reg 1 * emergency_stop $end
+$var reg 3 + req_floor [2:0] $end
+$var reg 1 , reset $end
+$scope module dut $end
+$var wire 1 ) clk $end
+$var wire 1 * emergency_stop $end
+$var wire 3 - req_floor [2:0] $end
+$var wire 1 , reset $end
+$var reg 1 ( Down $end
+$var reg 1 ' Up $end
+$var reg 3 . current_floor [2:0] $end
+$var reg 1 % door $end
+$var reg 1 / door_timer $end
+$var reg 1 0 emergency_stopped $end
+$var reg 1 1 flag $end
+$var reg 1 $ idle $end
+$var reg 3 2 max_request [2:0] $end
+$var reg 3 3 min_request [2:0] $end
+$var reg 8 4 requests [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 4
+b111 3
+b0 2
+01
+00
+0/
+b0 .
+bx -
+1,
+bx +
+0*
+0)
+0(
+1'
+b0 &
+0%
+0$
+b0 #
+b111 "
+b0 !
+$end
+#5000
+1)
+#10000
+b1 "
+b1 3
+b1 #
+b1 2
+b10 !
+b10 4
+0)
+b1 +
+b1 -
+0,
+#15000
+1/
+b0 !
+b0 4
+1%
+1$
+b1 &
+b1 .
+1)
+#20000
+0)
+#25000
+0%
+1)
+#30000
+0)
+#35000
+1)
+#40000
+b100 #
+b100 2
+b10000 !
+b10000 4
+0)
+b100 +
+b100 -
+#45000
+0$
+b10 &
+b10 .
+1)
+#50000
+b11000 !
+b11000 4
+0)
+b11 +
+b11 -
+#55000
+b10000 !
+b10000 4
+1%
+1$
+b11 &
+b11 .
+1)
+#60000
+0)
+#65000
+b0 !
+b0 4
+1$
+b100 &
+b100 .
+1%
+1)
+#70000
+b111 #
+b111 2
+b10000000 !
+b10000000 4
+0)
+b111 +
+b111 -
+#75000
+0$
+b101 &
+b101 .
+0%
+1)
+#80000
+0)
+#85000
+b110 &
+b110 .
+1)
+#90000
+0)
+1*
+#95000
+10
+11
+1$
+1)
+#100000
+0)
+#105000
+1)
+#110000
+0)
+0*
+#115000
+01
+00
+1)
+#120000
+b10 "
+b10 3
+b10000100 !
+b10000100 4
+0)
+b10 +
+b10 -
+#125000
+b100 !
+b100 4
+1%
+1$
+b111 &
+b111 .
+1)
+#130000
+0)
+#135000
+1(
+0'
+0%
+1)
+#140000
+0)
+#145000
+0$
+b110 &
+b110 .
+1)
+#150000
+0)
+#155000
+b101 &
+b101 .
+1)
+#160000
+b110 #
+b110 2
+b1000100 !
+b1000100 4
+0)
+b110 +
+b110 -
+#165000
+b100 &
+b100 .
+1)
+#170000
+0)
+#175000
+b11 &
+b11 .
+1)
+#180000
+0)
+#185000
+b1000000 !
+b1000000 4
+1%
+1$
+b10 &
+b10 .
+1)
+#190000
+0)
+#195000
+0(
+1'
+0%
+1)
+#200000
+b1 "
+b1 3
+b1000010 !
+b1000010 4
+0)
+b1 +
+b1 -
+#205000
+0$
+b11 &
+b11 .
+1)
+#210000
+0)
+#215000
+b100 &
+b100 .
+1)
+#220000
+0)
+#225000
+b101 &
+b101 .
+1)
+#230000
+0)
+#235000
+b10 !
+b10 4
+1%
+1$
+b110 &
+b110 .
+1)
+#240000
+0)
+#245000
+1(
+0'
+0%
+1)
+#250000
+0)
+#255000
+0$
+b101 &
+b101 .
+1)
+#260000
+0)
+#265000
+b100 &
+b100 .
+1)
+#270000
+0)
+#275000
+b11 &
+b11 .
+1)
+#280000
+0)
+#285000
+b10 &
+b10 .
+1)
+#290000
+0)
+#295000
+b0 !
+b0 4
+1%
+1$
+b1 &
+b1 .
+1)
+#300000
+0)
+#305000
+0%
+1)
